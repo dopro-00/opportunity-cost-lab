@@ -186,6 +186,8 @@ step();
 assert.ok(element('explanationBody').innerHTML.includes('뒹굴거리기'));
 assert.equal((element('explanationBody').innerHTML.match(/<li>/g)||[]).length, 5);
 assert.ok(element('explanationBody').innerHTML.includes('가장 아쉬운 대안 하나'));
+assert.ok(element('explanationBody').innerHTML.includes('baseballGraphicTitleForgone'));
+assert.ok(element('explanationBody').innerHTML.includes('concertGraphicTitleForgone'));
 element('closeExplanation').onclick();
 choose('time', 'friends');
 assert.equal(run('timeOpen'), false);
