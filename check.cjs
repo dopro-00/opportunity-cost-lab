@@ -42,6 +42,8 @@ run('advance()');
 assert.equal(run('scene'), 0);
 assert.ok(element('stage').innerHTML.includes('activity-choices'));
 assert.ok(element('stage').innerHTML.includes('bat-swing'));
+assert.equal((element('stage').innerHTML.match(/class="crowd-fan"/g)||[]).length, 18);
+assert.ok(element('stage').innerHTML.includes('관중들이 뛰며 응원봉을 흔드는 장면'));
 assert.ok(element('stage').innerHTML.includes('dancer-groove'));
 assert.equal((element('stage').innerHTML.match(/data-choice=/g)||[]).length, 2);
 assert.ok(element('stage').innerHTML.includes('baseballGraphicTitle'));
