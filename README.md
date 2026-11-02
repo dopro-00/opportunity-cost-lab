@@ -6,12 +6,6 @@
 
 `index.html` 하나를 브라우저에서 엽니다. CSS, JavaScript, SVG 그림이 파일 안에 포함되어 인터넷 연결이나 설치 없이 실행됩니다. GitHub Pages에서도 별도 빌드 없이 사용할 수 있습니다.
 
-## 배포
-
-- 서비스: [기회비용 실험실](https://yadoran-2025.github.io/opportunity-cost-lab/)
-- 소스: [GitHub 저장소](https://github.com/yadoran-2025/opportunity-cost-lab)
-
-`main` 브랜치의 루트 폴더를 GitHub Pages로 배포합니다. 변경 사항을 `main`에 푸시하면 자동으로 반영됩니다.
 
 ## 고정된 상황
 
